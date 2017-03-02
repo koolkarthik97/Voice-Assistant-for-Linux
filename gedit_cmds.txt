@@ -1,0 +1,19 @@
+open:xdotool key ctrl+o
+save:xdotool key ctrl+s
+exit:xdotool key ctrl+w
+new tab:xdotool key ctrl+n
+file:xdotool key alt+f
+undo:xdotool key ctrl+z
+check spelling:xdotool key shift+F7
+new line:xdotool key Return
+left:xdotool key ctrl+Left
+up:xdotool key Up
+right:xdotool key ctrl+right
+down:xdotool key Down
+select all:xdotool key ctrl+a
+copy:xdotool key ctrl+c
+paste:xdotool key ctrl+v
+switch to document editor:wmctrl -x -a gedit
+switch to chrome:wmctrl -x -a chrome
+show desktop:xdotool key super+d
+Show desktop:xdotool key super+d

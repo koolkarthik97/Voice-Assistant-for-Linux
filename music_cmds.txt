@@ -1,0 +1,14 @@
+open a song:xdotool key ctrl+o && sleep 2 && xdotool key Return
+pause:xdotool key space
+pass:xdotool key space
+boss:xdotool key space
+play:xdotool key space
+fast forward:xdotool key ctrl+Right
+forward:xdotool key shift+Right 
+volume up:xdotool key ctrl+Up
+volume down:xdotool key ctrl+Down
+switch to document editor:wmctrl -x -a gedit
+switch to chrome:wmctrl -x -a chrome
+switch to Chrome:wmctrl -x -a chrome
+show desktop:xdotool key super+d
+Show desktop:xdotool key super+d

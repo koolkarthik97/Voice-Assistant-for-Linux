@@ -1,0 +1,15 @@
+new folder:xdotool key ctrl+shift+n
+open downloads:cd ~ && nautilus Downloads
+open music:cd ~ && nautilus Music
+open pictures:cd ~ && nautilus Pictures
+open videos:cd ~ && nautilus Videos
+open desktop:cd ~ && nautilus Desktop
+open wallpapers:cd ~ && nautilus Pictures/Wallpapers/
+open project:cd ~ && nautilus Downloads/Project/
+go back:xdotool key ctrl+w
+close window:xdotool key ctrl+w
+close all:xdotool key ctrl+q
+switch to document editor:wmctrl -x -a gedit
+switch to chrome:wmctrl -x -a chrome
+show desktop:xdotool key super+d
+show desktop:xdotool key super+d

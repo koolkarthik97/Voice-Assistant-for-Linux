@@ -1,0 +1,44 @@
+fullscreen:xdotool key F11
+history:xdotool key ctrl+h
+bookmark this page:xdotool key ctrl+d
+downloads:xdotool key ctrl+j
+new tab:xdotool key ctrl+t
+back:xdotool key alt+Left
+forward:xdotool key alt+right
+facebook:xdotool type 'facebook.com'
+go:xdotool key Return
+switch to document editor:wmctrl -x -a gedit
+switch to chrome:wmctrl -x -a chrome
+scroll up:xdotool mouse click 4
+scroll down:xdotool key space
+switch tabs:xdotool search --onlyvisible --class "Google Chrome" windowactivate key alt+Tab
+new tab:xdotool key ctrl+t
+new window:xdotool key ctrl+n
+refresh:xdotool key ctrl+r
+close tab:xdotool key ctrl+w
+next tab:xdotool key ctrl+Tab
+okay google:xdotool keydown ctrl+shift+period && sleep 3 && xdotool keyup ctrl+shift+period
+switch to document editor:wmctrl -x -a gedit
+switch to chrome:wmctrl -x -a chrome
+show desktop:xdotool key super+d
+full screen:xdotool key F11
+history:xdotool key ctrl+h
+bookmark this page:xdotool key ctrl+d
+downloads:xdotool key ctrl+j
+new tab:xdotool key ctrl+t
+back:xdotool key alt+Left
+forward:xdotool key alt+right
+Facebook:xdotool type 'facebook.com'
+go:xdotool key Return
+switch to document editor:wmctrl -x -a gedit
+switch to Chrome:wmctrl -x -a chrome
+scroll up:xdotool mouse click 4
+scroll down:xdotool key space
+switch tabs:xdotool search --onlyvisible --class "Google Chrome" windowactivate key alt+Tab
+new tab:xdotool key ctrl+t
+new window:xdotool key ctrl+n
+refresh:xdotool key ctrl+r
+Close tab:xdotool key ctrl+w
+next tab:xdotool key ctrl+Tab
+Ok Google:xdotool keydown ctrl+shift+period && sleep 3 && xdotool keyup ctrl+shift+period
+Show desktop:xdotool key super+d

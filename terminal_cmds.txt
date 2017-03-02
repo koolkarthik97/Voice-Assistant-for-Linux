@@ -1,0 +1,12 @@
+switch to document editor:wmctrl -x -a gedit
+switch to chrome:wmctrl -x -a chrome
+list my files:xdotool type "ls" && xdotool key Return
+where am i:xdotool type "pwd" && xdotool key Return
+calendar:xdotool type "cal" && xdotool key Return
+shut down:xdotool type "systemctl poweroff" && xdotool key Return
+restart:xdotool type "systemctl reboot" && xdotool key Return
+sleep:xdotool key ctrl+shift+l
+clear:xdotool type "clear" && xdotool key Return
+go to root:xdotool type "cd ~" && xdotool key Return
+show desktop:xdotool key super+d
+battery status:xdotool type "acpi" && xdotool key Return
